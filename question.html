@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <img src="image/shopping-cart.png" style="width: 50px; height:50px;"/>
+        </td>
+
+        <td>
+          <h1>ONLINE SHOPPING</h1>
+        </td>
+      </tr>
+    </table>
+    <a href="index.html">HOME</a> |
+    <a href="contact.html">CONTACT</a> |
+    <a href="question.html">FAQ</a> |
+    <a href="https://www.facebook.com/">FACEBOOK</a>
+    <br/>
+    <br/>
+
+    <div class="container">
+    <form action="#" method="get" id="question">
+    <table>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name" required></td>
+      </tr>
+
+      <tr>
+        <td>Topic?</td>
+        <td><select id="topic" name="topic" required>
+    <option value="1" selected>Payment</option>
+    <option value="2">Cash On Delivery</option>
+    <option value="3">Data Privacy</option>
+  </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="quest">Question:</label></td>
+        <td><textarea id="quest" name="quest" placeholder="Write something.." style="height:100px" required></textarea></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="text" id="email" name="email" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="phone">Phone Number: +60</label></td>
+        <td><input type="number" maxlength="9" id="phone" name="phone" required></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td><center><button type="reset" form="question" value="Reset">Reset</button> <button type="submit" form="question" value="Submit">Submit</button></center></td>
+      </tr>
+    </table>
+    </form>
+    </div>
+  </body>
+</html>
