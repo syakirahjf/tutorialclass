@@ -1,0 +1,49 @@
+body{
+  font-family: Calibri, Arial;
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+
+input:invalid[type=text], input:invalid[type=number], select:invalid, textarea:invalid{
+  border: 1px solid red;
+}
+
+input:valid[type=text], input:valid[type=number], select:valid, textarea:valid{
+  border: 1px solid #dcdcdc;
+}
+
+input[type=text], input[type=number], select, textarea{
+  width: 300px;
+  padding: 12px;
+  border-radius: 2px;
+  margin: 2px;
+  font-family: Calibri, Arial;
+  font-size: 14px;
+}
+
+button[type=submit]{
+  width: 150px;
+  background-color: #02F3FF;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+}
+
+button[type=reset]{
+  width: 150px;
+  background-color: white;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+}
+
+.container{
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
